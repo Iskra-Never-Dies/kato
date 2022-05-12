@@ -115,5 +115,6 @@ UICorner_4.Parent = TextButton
 	wait(1)
 	Button:TweenPosition(UDim2.new(0.167, 0,1.166, 0),'InOut','Linear',.5)
 	
-	wait(10)
+wait(10)
+ScreenGui:Destroy()
 end)
