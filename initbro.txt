@@ -86,9 +86,6 @@ TextButton.TextColor3 = Color3.fromRGB(245, 245, 245)
 TextButton.TextSize = 14.000
 TextButton.TextTransparency = 1.000
 
-wait(10)
-end)
-
 UICorner_4.Parent = TextButton
 
 
@@ -117,3 +114,6 @@ UICorner_4.Parent = TextButton
 	tween(ActualButton,{TextTransparency = 0},1)
 	wait(1)
 	Button:TweenPosition(UDim2.new(0.167, 0,1.166, 0),'InOut','Linear',.5)
+	
+	wait(10)
+end)
