@@ -1,5 +1,6 @@
 getgenv().loadfile = function(x) return loadstring(readfile(x)) end
 
+task.spawn(function()
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local Border = Instance.new("Frame")
@@ -113,3 +114,6 @@ UICorner_4.Parent = TextButton
 	tween(ActualButton,{TextTransparency = 0},1)
 	wait(1)
 	Button:TweenPosition(UDim2.new(0.167, 0,1.166, 0),'InOut','Linear',.5)
+	
+	wait(10)
+end)
